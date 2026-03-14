@@ -21,7 +21,7 @@ This system requires **MFA** (ID.me / SMS / Video Call). The OSS version provide
 ## Quick Start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/irs-eservices-browser-automation.git
+git clone https://github.com/Browser-Automation-Hub/irs-eservices-browser-automation.git
 cd irs-eservices-browser-automation
 npm install
 cp .env.example .env
