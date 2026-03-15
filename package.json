@@ -1,7 +1,7 @@
 {
-  "name": "irs-eservices-browser-automation",
+  "name": "@browser-automation-hub/irs-eservices-browser-automation",
   "version": "1.0.0",
-  "description": "Browser automation for IRS e-Services — automate TIN matching, transcript retrieval, e-file status checking, and tax professional workflows on IRS.gov portals.",
+  "description": "Browser automation for IRS e-Services — automate TIN matching, transcript retrieval, and tax professional workflows",
   "main": "src/actions.js",
   "scripts": {
     "start": "node examples/basic-login.js",
@@ -16,7 +16,7 @@
     "browser-automation",
     "puppeteer",
     "playwright",
-    "anchorbrowser",
+    "anchor-browser",
     "nodejs"
   ],
   "license": "MIT",
@@ -35,5 +35,8 @@
   "homepage": "https://github.com/Browser-Automation-Hub/irs-eservices-browser-automation#readme",
   "bugs": {
     "url": "https://github.com/Browser-Automation-Hub/irs-eservices-browser-automation/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
